@@ -1,0 +1,46 @@
+- Shortest path algos in hypergraphs
+
+- Which algos are available?
+-- (2015) HyperEdge-based Dynamic Shortest Path Algorithm(HE-DSP by Gao et al) [1]
+-- (2015) DR-DSP by Gao et al [1]
+-- (1993) Extended Dijkstra(Gallo et al.) [2]
+--- Applies to B-Hypergraphs
+--- Weighted Hypergraph
+--- NP-Hard but some cases where easy to solve
+--- Assume: Restricted to additive weighting functions
+--- Assume: Arc weights are nonnegative
+--- Assume: All cycles are nondecreasing
+-- (1992) Semi-dynamic minimum length (Ausiello et al.)[3]
+--- Approaces NP-hard w/ measure-function on hyperpaths must be value-based
+-- (1992) An incremental algorithm for a generalization of the shortest-path problem(Ramalingam) [4]
+--- Poses problem as grammar problem
+--- Assume: nonnegative edge lengths
+--- Dynamic
+--- SSSP(Single-source shortest-path problem)
+--- Special case of the Dynamic SSF-G Algo
+
+
+- Types of shortest path problems
+-- static ~> extended Dijkstras algo
+-- dynamic
+
+- Types of hypergraphs
+-- General ~> Gallo's algo
+-- Special case ~> Knuth's & Ramalingam
+-- Directed Hypergraphs ~> Ausiello  
+
+
+- Why are the different classes of Algos?
+-- fully dynamic 
+
+- What are the uses?
+
+- Notes
+-- Hypergraph ~= context free Grammar
+-- Hyperarcs ~= Production
+-- Nodes ~= nonterminals
+-- Hyperpath ~= derivation
+-- Hyperpath from empty set of nodes to a node ~= Derivation of terminal string from nonterminal
+-- Hyperpaths from nonempty set of nodes to node ~= partial derivations
+
+

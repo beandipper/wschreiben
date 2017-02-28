@@ -1,0 +1,25 @@
+\begin{thebibliography}{1}
+
+\bibitem{Ausiello92optimaltraversal}
+Giorgio Ausiello, Roberto Giaccio, Giuseppe~F. Italiano, and Umberto Nanni.
+\newblock Optimal traversal of directed hypergraphs.
+\newblock Technical report, 1992.
+
+\bibitem{GALLO1993177}
+Giorgio Gallo, Giustino Longo, Stefano Pallottino, and Sang Nguyen.
+\newblock Directed hypergraphs and applications.
+\newblock {\em Discrete Applied Mathematics}, 42(2):177 -- 201, 1993.
+
+\bibitem{dynShortPath}
+Jianhang Gao, Qing Zhao, Wei Ren, Ananthram Swami, Ram Ramanathan, and Amotz
+  Bar{-}Noy.
+\newblock Dynamic shortest path algorithms for hypergraphs.
+\newblock {\em CoRR}, abs/1202.0082, 2012.
+
+\bibitem{RAMALINGAM1996267}
+G.~Ramalingam and Thomas Reps.
+\newblock An incremental algorithm for a generalization of the shortest-path
+  problem.
+\newblock {\em Journal of Algorithms}, 21(2):267 -- 305, 1996.
+
+\end{thebibliography}

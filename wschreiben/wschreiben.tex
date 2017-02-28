@@ -1,0 +1,33 @@
+\documentclass[10pt]{article}
+\usepackage{graphicx} 
+\title{Shortest Path Algorithms for Hypergraphs}
+\author{Albert Cortez}
+\begin{document}
+\maketitle
+\begin{abstract}
+The shortest path problem, as well studied in graph theory with multiple algorithms that solve it. Most of algorithms however do not apply to hypergraphs, a generalization of simple graphs. Hypergraphs are able to capture information that would go lost in simple graphs making them interesting for problem domains in which non-pair-wise relationships are unnatural or impossible to model. In this paper we examine several of the currently avaible approaches for solving the shortest path problem for hypergraphs and consider some of their applications
+\end{abstract}
+
+\section{Introduction}
+\subsection{Terminology}
+The subject of these algorithms is the hypergraph, a generalization of simple pairwise graphs that are able to capture information not representable in simple graphs. 
+
+A hypergraph $H = (X, E)$ consists of a set of vertices $X=\{x_i \mid i \in I_v\}$, and a set of edges, or hyperedges $E=\{e_i \mid e \subseteq I_e, e_i \in X\}$ where $I_v$ and $I_e$ are the index sets of the vertices and edges
+
+
+ 
+\subsection{Algorithms}
+As of date, there are several algorithms and their  variants that calculate the shortest path between nodes in hypergraphs. Despite the implementations discussed in this paper, the shortest hyperpath problem remains an area to be further explored.
+This paper is an observation of the following summarized shortest hyperpath algorithm implmentations. Most recently, the two algorithms described as DR-DSP and HE-DSP~\cite{dynShortPath} are two algorithms that focus on $dynamic$ $hypergraphs$. The dynamic aspect of this algorithm requires the aqcuisition of the shortest path without the need of recomputing during a sequence of changes to the graph. Another algorithm for the shortest hyperpath is an extension of Dijkstras Theorem that is applicable to hypergraphs ~\cite{GALLO1993177}. There are solutions to the hypergraph path problem provided by Ausiello et. al ~\cite{Ausiello92optimaltraversal} and Ramalingam et. al ~\cite{RAMALINGAM1996267} which extends Knuths single-source shortest path solution; both papers examine value-based metrics as viable optimmization criteria.
+
+\section{Static Hypergraphs}
+
+\section{Dynamic Hypergraphs}
+
+\section{Applications}
+
+\section{Conclusions}
+
+\bibliographystyle{plain}
+\bibliography{bibfile}
+\end{document}
